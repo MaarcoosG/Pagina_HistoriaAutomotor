@@ -1,0 +1,114 @@
+header {
+    background-color: black;
+    color: white;
+    font-family: Cambria;
+    font-size: 48px;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    font-size: 24px;
+    margin: 10px 0px;
+    padding: 20px;
+
+}
+
+.section_info {
+    /*TEXTO "INFORMACION"*/
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo_autos {
+    /*TEXTO "AUTOS"*/
+    text-align: center;
+    font-size: 80px;
+    text-decoration: underline;
+}
+
+article {
+    margin: 10px;
+    background-color: rgb(155, 131, 109);
+    border: solid 2px rgb(0, 0, 0);
+    padding: 20px;
+    min-height: 250px;
+    font-size: 18px;
+}
+
+.caracteristicas {
+    /*DIV CARACTERISTICAS AUTOS*/
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.caracteristicas p {
+    /*TEXTO CARACTERISTICAS AUTOS*/
+    font-size: 30px;
+}
+
+.caracteristicas h3 {
+    /*TEXTO CARACTERISTICAS AUTOS*/
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+
+.article_tabla {
+    /*TABLA COMPARATIVA*/
+    margin: 10px;
+    background-color: rgb(0, 0, 0);
+    border: solid 2px black;
+    padding: 20px;
+    min-height: 250px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+
+table,
+th,
+td {
+    /*CARACTERISTICAS DE LA TABLA*/
+    border: 3px solid rgb(155, 131, 109);
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+th {
+    text-decoration: underline;
+}
+
+.imginicio {
+    /*IMAGENES DEL INICIO*/
+    width: 720px;
+    text-align: center;
+}
+
+.imgalbum {
+    /*IMAGENES DEL ALBUM*/
+    width: 100%;
+    text-align: center;
+}
+
+.video {
+    width: 1120px;
+    height: 630px;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
